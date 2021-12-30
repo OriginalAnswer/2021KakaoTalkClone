@@ -14,9 +14,11 @@
 
 .nav__link {
   color: #2e363e;
-  position: relative;
 }
 
+.nav__li {
+  position: relative;
+}
 .nav__link i {
   display: flex;
   justify-content: center;
