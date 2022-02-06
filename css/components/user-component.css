@@ -11,6 +11,9 @@
   color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
+  flex-direction: row;
+}
+.main-screen .user-component__column:last-child {
   flex-direction: column;
 }
 
