@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -8,7 +9,11 @@
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -41,4 +46,13 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
+}
+.user-component__subtitle i {
+  color: tomato;
+  margin-left: 5px;
 }
