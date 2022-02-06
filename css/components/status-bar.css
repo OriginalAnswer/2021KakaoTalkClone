@@ -5,7 +5,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  margin: 5px 3px;
+  margin: 5px;
 }
 
 .status-bar__colume {
@@ -36,5 +36,5 @@
 }
 
 .status-bar__colume .battery {
-  margin: 0 5px;
+  margin: 0 10px 0 5px;
 }
